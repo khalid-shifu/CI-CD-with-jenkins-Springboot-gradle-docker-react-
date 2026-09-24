@@ -39,7 +39,7 @@ pipeline {
                     sh 'docker rm -f car-backend || true'
                     sh '''
                         docker run -d --name car-backend --network ${NETWORK} \
-                          -p 8080:8080 \
+                          -p 2020:8080 \
                           -e SPRING_DATASOURCE_PASSWORD=${MYSQL_ROOT_PASSWORD} \
                           car-backend
                     '''
