@@ -2,7 +2,7 @@ import { StrictMode, useEffect, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import './styles.css'
 
-const API_URL = 'http://localhost:8080/api/cars'
+const API_URL = 'http://localhost:2020/api/cars'
 
 function App() {
   const [cars, setCars] = useState([])
