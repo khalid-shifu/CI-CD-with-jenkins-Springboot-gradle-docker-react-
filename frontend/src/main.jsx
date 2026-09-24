@@ -46,7 +46,7 @@ function App() {
       <header className="topbar">
         <div>
           <p className="eyebrow">Fleet workspace</p>
-          <h1>Car registry</h1>
+          <h1>Car registry!</h1>
         </div>
         <button className="primary-button" onClick={() => setIsModalOpen(true)}>
           <span aria-hidden="true">+</span> Create car
